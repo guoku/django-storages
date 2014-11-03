@@ -12,9 +12,9 @@ django-storages
 * 使用七牛存储需要在 settings.py 增加以下配置
 
 ```
-QINIU_ACCESS_KEY = "xD6MU4_jZANfAqu9auFQm4qkSIx_ln2hIefKIFAU"
-QINIU_SECRET_KEY = "NkTHwgTFQHFaujEB3Fo-ZC2jgf6LkjkWT0iWbwWP"
-QINIU_BUCKET = "imgjiaxin"
+QINIU_ACCESS_KEY = "<YOUR_APP_ACCESS_KEY>"
+QINIU_SECRET_KEY = "<YOUR_APP_SECRET_KEY>"
+QINIU_BUCKET = "<bucketName>"
 ```
 
 

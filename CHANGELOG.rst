@@ -1,5 +1,16 @@
 django-storages change log
 ==========================
+1.2.0 (2014-11-3)
+******************
+* 支持七牛云， (需要安装七牛提供的 python-sdk)
+* 目前无法支持 django-storage 直接从七牛直接读取文件
+* 
+
+1.1.9 (2014-07-01)
+******************
+* mogilefs 存储使用 pymogile
+* fixed django-stroages not support pymogile issue
+
 
 1.1.5 (2012-07-18)
 ******************

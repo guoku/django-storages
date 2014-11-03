@@ -53,7 +53,7 @@ class QiNiuStorage(Storage):
 
     def exists(self, filename):
         items, err =  self.client.list_prefix(self.bucket, prefix=filename, limit=1)
-        return bool(items['items'])
+        return bool(items.get('items'))
 
     def save(self, filename, raw_contents):
         filename = self.get_available_name(filename)

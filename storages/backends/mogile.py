@@ -85,8 +85,8 @@ class MogileFSStorage(Storage):
         return force_unicode(filename.replace('\\', '/'))
 
     def delete(self, filename):
-        
-        self.client.delete(filename)
+        print filename
+        return self.client.delete(filename)
             
         
 def serve_mogilefs_file(request, key=None):

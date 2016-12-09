@@ -18,7 +18,7 @@ class QiNiuStorage(Storage):
 
     def __init__(self, base_url=settings.MEDIA_URL):
         if hasattr(settings, 'QINIU_MEDIA_URL'):
-            self.base_url = settings.MOGILEFS_MEDIA_URL
+            self.base_url = settings.QINIU_MEDIA_URL
         else:
             self.base_url = base_url
 

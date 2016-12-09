@@ -18,5 +18,9 @@ QINIU_BUCKET = "<bucketName>"
 ```
 
 
+## 支持阿里云 oss
+
+
+
 
 

@@ -19,7 +19,12 @@ QINIU_BUCKET = "<bucketName>"
 
 
 ## 支持阿里云 oss
-
+```
+ALIYUN_ACCESS_KEY           = "<YOUR_ACCESS_KEY>"
+ALIYUN_ACCESS_KYE_SECRET    = "<YOUR_ACCESS_SECRET>"
+OSS_ENDPOINT                = "ALIYUN_ENDPOINT"
+OSS_BUCKET                  = "YOUR_BUCKET_NAME"
+```
 
 
 

@@ -28,8 +28,8 @@ pip install oss2
 ```
 ALIYUN_ACCESS_KEY           = "<YOUR_ACCESS_KEY>"
 ALIYUN_ACCESS_KYE_SECRET    = "<YOUR_ACCESS_SECRET>"
-OSS_ENDPOINT                = "ALIYUN_ENDPOINT"
-OSS_BUCKET                  = "YOUR_BUCKET_NAME"
+OSS_ENDPOINT                = "<ALIYUN_ENDPOINT>"
+OSS_BUCKET                  = "<YOUR_BUCKET_NAME>"
 ```
 
 

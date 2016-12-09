@@ -1,6 +1,6 @@
 django-storages
 ===============
-1. clone from https://github.com/e-loue/django-storages.git
+1. fork from https://github.com/e-loue/django-storages.git
 
 2. guoku django-storages use pymogile,
 
@@ -19,6 +19,12 @@ QINIU_BUCKET = "<bucketName>"
 
 
 ## 支持阿里云 oss
+* 需要安装 阿里云 oss sdk 
+```
+pip install oss2
+```
+
+* 再 django settings.py 加入一下配置
 ```
 ALIYUN_ACCESS_KEY           = "<YOUR_ACCESS_KEY>"
 ALIYUN_ACCESS_KYE_SECRET    = "<YOUR_ACCESS_SECRET>"

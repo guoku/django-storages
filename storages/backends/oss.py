@@ -61,7 +61,7 @@ class OSS2Storage(Storage):
         if (success.status == 200):
             return force_unicode(filename.replace('\\', '/'))
         else:
-            print "FAILURE writing file %s" % (filename)
+            print ("FAILURE writing file {filename}".format(filename= filename))
 
     def delete(self, filename):
         success     = self.bucket.delete_object(filename)
